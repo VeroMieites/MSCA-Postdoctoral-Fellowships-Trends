@@ -58,6 +58,9 @@
                 <p class="mt-2">
                     On the contrary, the number of funded proposals has remained relatively static, fluctuating generally between 1,200 and 1,700 throughout the entire 13-year period. The system's capacity to fund projects has not expanded to meet the new demand.
                 </p>
+                                <p class="mt-2 text-gray-600">
+                <i>Note: For 2014 and 2015, the number in the graph represents the combined total of MSCA-IF-GF and MSCA-IF-EF calls</i>
+                </p>
             </div>
         </section>
 
@@ -74,21 +77,48 @@
                 <p class="mt-2 font-bold text-red-600">
                     However, the dramatic increase in proposals in 2025 and 2026 has caused the success rate to plummet. It dropped to a single-digit 9.56% in 2025 and further down to an all-time low of 7.40% in 2026.
                 </p>
+                                </p>
+                                <p class="mt-2 text-gray-600">
+                <i>Note: For 2014 and 2015, the number in the graph represents the combined total of MSCA-IF-GF and MSCA-IF-EF calls</i>
+                </p>
+            </div>
+        </section>
+        
+        <section class="bg-white rounded-xl shadow-md p-8 mb-10">
+            <h2 class="text-2xl font-bold text-gray-800 mb-6">4. Proposals Scoring &ge; 80% (MSCA-PF)</h2>
+            <div class="w-full h-80">
+                <canvas id="scoreThresholdChart"></canvas>
+            </div>
+            <div class="mt-6 text-gray-700">
+                <h3 class="font-semibold text-lg mb-2">Analysis:</h3>
+                <p>
+                    The percentage of applications scoring above the 80% threshold illustrates a significant shift in overall proposal quality and evaluation dynamics. While this figure remained relatively stable in the mid-to-high 50s between 2021 and 2024, it surged to 78.51% in 2025. 
+                </p>
+                <p class="mt-2 font-bold text-red-600">
+                    This massive cluster of high scores indicates that while tools like Generative AI may have lowered the barrier to entry for drafting competent proposals, the bar to actually succeed has been raised substantially. With so many applicants clearing the baseline, funding cutoffs have been pushed to near-perfect scores, meaning only exceptionally flawless science secures funding.
+                </p>
+                <p class="mt-2 text-gray-600">
+                <i>Note: Only MSCA-PF programme data is shown. The graph will be updated as more data is obtained on this topic.</i>
+                </p>
+                <p class="mt-2 text-gray-600">
+                <i>Note: This value was calculated by averaging the percentage of proposals that scored over 80%, across all EF and GF categories. The resulting average percentage was then applied to the number of valid presented proposals.</i>
+                </p>
             </div>
         </section>
 
-<section class="bg-blue-50 rounded-xl shadow-md p-8 mb-10 border-l-4 border-blue-600">
-            <h2 class="text-2xl font-bold text-blue-900 mb-4">Conclusion & Outlook</h2>
-            <p class="mb-4 text-gray-800">
-                The data reveals a highly competitive landscape that is rapidly intensifying. While the absolute budget for MSCA Fellowships has grown in recent years, the exponential rise in applicant volume has severely depressed the success rates.
-            </p>
-            <ul class="list-disc pl-6 space-y-2 text-gray-700">
-                <li><strong>Hyper-Competition:</strong> The drop from a ~16% success rate in 2024 to ~7.4% in 2026 indicates that obtaining an MSCA fellowship has become vastly more difficult.</li>
-                <li><strong>Budget vs. Demand Mismatch:</strong> The budget increases have not been nearly sufficient to accommodate the flood of new applications.</li>
-                <li><strong>External Factors:</strong> The 2024 surge in both budget and proposal numbers correlates with the United Kingdom officially joining Horizon Europe, which expanded the financial pool and reopened a historically popular destination for applicants. Concurrently, the widespread availability of Generative AI/LLMs may have lowered the barrier to writing and submitting proposals, further contributing to the dramatic and continued increase in volume up to 2026.</li>
-                <li><strong>Strategic Implications for Researchers:</strong> Prospective applicants must recognize this new reality. The quality of proposals must be exceptionally high to stand out in a pool of over 21,000 candidates where fewer than 1 in 13 will be funded.</li>
-            </ul>
-        </section>
+        <section class="bg-blue-50 rounded-xl shadow-md p-8 mb-10 border-l-4 border-blue-600">
+                    <h2 class="text-2xl font-bold text-blue-900 mb-4">Conclusion & Outlook</h2>
+                    <p class="mb-4 text-gray-800">
+                        The data reveals a highly competitive landscape that is rapidly intensifying. While the absolute budget for MSCA Fellowships has grown in recent years, the exponential rise in applicant volume has severely depressed the success rates.
+                    </p>
+                    <ul class="list-disc pl-6 space-y-2 text-gray-700">
+                        <li><strong>Hyper-Competition:</strong> The drop from a ~16% success rate in 2024 to ~7.4% in 2026 indicates that obtaining an MSCA fellowship has become vastly more difficult.</li>
+                        <li><strong>Budget vs. Demand Mismatch:</strong> The budget increases have not been nearly sufficient to accommodate the flood of new applications.</li>
+                        <li><strong>External Factors:</strong> The 2024 surge in both budget and proposal numbers correlates with the United Kingdom officially joining Horizon Europe, which expanded the financial pool and reopened a historically popular destination for applicants. Concurrently, the widespread availability of Generative AI/LLMs may have lowered the barrier to writing and submitting proposals, further contributing to the dramatic and continued increase in volume up to 2026.</li>
+                        <li><strong>Score Inflation and the Raised Bar:</strong> With AI tools elevating the baseline quality of writing, nearly 80% of proposals scored above the 80% mark in 2025. This has created a flood of competent proposals, pushing funding cutoffs to near-perfect scores (e.g., >96% in certain panels).</li>
+                        <li><strong>Strategic Implications for Researchers:</strong> Prospective applicants must recognize this new reality. A well-written, competent proposal is no longer sufficient. To stand out in a pool of over 21,000 candidates where fewer than 1 in 13 will be funded, the scientific innovation and execution must be exceptionally flawless.</li>
+                    </ul>
+                </section>
 
         <section class="bg-white rounded-xl shadow-md p-8">
             <h2 class="text-xl font-bold text-gray-800 mb-4">Raw Data Reference</h2>
@@ -101,6 +131,7 @@
                             <th class="px-6 py-3">Presented Proposals</th>
                             <th class="px-6 py-3">Funded Proposals</th>
                             <th class="px-6 py-3">Chance of Funding (%)</th>
+                            <th scope="col" class="px-6 py-3">Scored &ge; 80% (%)</th>
                             <th class="px-6 py-3">Grant Umbrella</th>
                         </tr>
                     </thead>
@@ -110,7 +141,7 @@
                 </table>
             </div>
         </section>
-
+        
         <section class="bg-white rounded-xl shadow-md p-8 mb-10 border-t-4 border-gray-300 mt-12">
             <h2 class="text-2xl font-bold text-gray-900 mb-4">How to Cite</h2>
             <p class="mb-8 text-gray-800">
@@ -130,27 +161,26 @@
                 This work is licensed under a <a href="http://creativecommons.org/licenses/by/4.0/" class="text-blue-600 hover:underline" target="_blank" rel="noopener noreferrer">Creative Commons Attribution 4.0 International License</a>.
             </p>
         </section>
+        
     </div>
 
     <script>
-        // Extracted data from image_23d67e.png
         // Reversing array to show chronological order (2014 to 2026) for charts
         const rawData = [
-            { year: 2026, budget: 399.05, presented: 21627, funded: 1600, chance: 7.39815970777269, umbrella: 'MSCA-EF' },
-            { year: 2025, budget: 404.3, presented: 16836, funded: 1610, chance: 9.56284153005464, umbrella: 'MSCA-EF' },
-            { year: 2024, budget: 417.2, presented: 10360, funded: 1696, chance: 16.3706563706564, umbrella: 'MSCA-EF' },
-            { year: 2023, budget: 260.5, presented: 8039, funded: 1249, chance: 15.5367583032716, umbrella: 'MSCA-EF' },
-            { year: 2022, budget: 257, presented: 7004, funded: 1235, chance: 17.6327812678469, umbrella: 'MSCA-EF' },
-            { year: 2021, budget: 242, presented: 8356, funded: 1156, chance: 13.8343705122068, umbrella: 'MSCA-EF' },
-            { year: 2020, budget: 328, presented: 11573, funded: 1630, chance: 14.0845070422535, umbrella: 'MSCA-IF' },
-            { year: 2019, budget: 296.49, presented: 9875, funded: 1475, chance: 14.9367088607595, umbrella: 'MSCA-IF' },
-            { year: 2018, budget: 273, presented: 9830, funded: 1375, chance: 13.9877924720244, umbrella: 'MSCA-IF' },
-            { year: 2017, budget: 248.7, presented: 9089, funded: 1368, chance: 15.0511607437562, umbrella: 'MSCA-IF' },
-            { year: 2016, budget: 218.71, presented: 8946, funded: 1253, chance: 14.0062597809077, umbrella: 'MSCA-IF' },
-            { year: 2015, budget: 215, presented: 8385, funded: 1209, chance: 14.4186046511628, umbrella: 'MSCA-IF' },
-            { year: 2014, budget: 240.5, presented: 7472, funded: 1361, chance: 18.2146680942184, umbrella: 'MSCA-IF' }
+            { year: 2026, budget: 399.05, presented: 21627, funded: 1600, chance: 7.39815970777269, umbrella: 'MSCA-EF', scoreOver80: null },
+            { year: 2025, budget: 404.3, presented: 16836, funded: 1610, chance: 9.56284153005464, umbrella: 'MSCA-EF', scoreOver80: 13217 },
+            { year: 2024, budget: 417.2, presented: 10360, funded: 1696, chance: 16.3706563706564, umbrella: 'MSCA-EF', scoreOver80: 5952 },
+            { year: 2023, budget: 260.5, presented: 8039, funded: 1249, chance: 15.5367583032716, umbrella: 'MSCA-EF', scoreOver80: 4831 },
+            { year: 2022, budget: 257, presented: 7004, funded: 1235, chance: 17.6327812678469, umbrella: 'MSCA-EF', scoreOver80: 3984 },
+            { year: 2021, budget: 242, presented: 8356, funded: 1156, chance: 13.8343705122068, umbrella: 'MSCA-EF', scoreOver80: 4601 },
+            { year: 2020, budget: 328, presented: 11573, funded: 1630, chance: 14.0845070422535, umbrella: 'MSCA-IF', scoreOver80: null },
+            { year: 2019, budget: 296.49, presented: 9875, funded: 1475, chance: 14.9367088607595, umbrella: 'MSCA-IF', scoreOver80: null },
+            { year: 2018, budget: 273, presented: 9830, funded: 1375, chance: 13.9877924720244, umbrella: 'MSCA-IF', scoreOver80: null },
+            { year: 2017, budget: 248.7, presented: 9089, funded: 1368, chance: 15.0511607437562, umbrella: 'MSCA-IF', scoreOver80: null },
+            { year: 2016, budget: 218.71, presented: 8946, funded: 1253, chance: 14.0062597809077, umbrella: 'MSCA-IF', scoreOver80: null },
+            { year: 2015, budget: 215, presented: 8385, funded: 1209, chance: 14.4186046511628, umbrella: 'MSCA-IF', scoreOver80: null },
+            { year: 2014, budget: 240.5, presented: 7472, funded: 1361, chance: 18.2146680942184, umbrella: 'MSCA-IF', scoreOver80: null }
         ];
-
         // Create a copy and reverse for chronical chart display
         const chartData = [...rawData].reverse();
 
@@ -160,20 +190,33 @@
         const funded = chartData.map(d => d.funded);
         const chances = chartData.map(d => d.chance);
 
-        const tableBody = document.getElementById('dataTableBody');
-        rawData.forEach(row => {
-            const tr = document.createElement('tr');
-            tr.className = "hover:bg-gray-50";
-            tr.innerHTML = `
-                <td class="px-6 py-4 font-medium text-gray-900">${row.year}</td>
-                <td class="px-6 py-4">${row.budget.toFixed(2)}</td>
-                <td class="px-6 py-4">${row.presented}</td>
-                <td class="px-6 py-4">${row.funded}</td>
-                <td class="px-6 py-4">${row.chance.toFixed(2)}%</td>
-                <td class="px-6 py-4 text-gray-500">${row.umbrella}</td>
-            `;
-            tableBody.appendChild(tr);
-        });
+const tableBody = document.getElementById('dataTableBody');
+
+// Clear existing content just in case
+tableBody.innerHTML = '';
+
+rawData.forEach(row => {
+    // Handle formatting for null or pending score values
+    let scoreText = 'N/A';
+    if (row.scoreOver80 !== null) {
+        scoreText = row.scoreOver80.toFixed(2) + '%';
+    } else if (row.year === 2026) {
+        scoreText = 'TBD';
+    }
+
+    const tr = document.createElement('tr');
+    tr.className = "hover:bg-gray-50";
+    tr.innerHTML = `
+        <td class="px-6 py-4 font-medium text-gray-900">${row.year}</td>
+        <td class="px-6 py-4">${row.budget.toFixed(2)}</td>
+        <td class="px-6 py-4">${row.presented}</td>
+        <td class="px-6 py-4">${row.funded}</td>
+        <td class="px-6 py-4">${row.chance.toFixed(2)}%</td>
+        <td class="px-6 py-4">${scoreText}</td>
+        <td class="px-6 py-4 text-gray-500">${row.umbrella}</td>
+    `;
+    tableBody.appendChild(tr);
+});
 
         // Common Chart Options
         const commonOptions = {
@@ -374,7 +417,47 @@
                     }
                 }
             });
+            
+            const chart2Data = [...rawData].reverse().filter(d => d.scoreOver80 !== null); //filter null values
+            const years2 = chart2Data.map(d => d.year);
+            const scoreOver80Data = chart2Data.map(d => d.scoreOver80);
+
+            const ctxScore = document.getElementById('scoreThresholdChart').getContext('2d');
+            new Chart(ctxScore, {
+                type: 'line',
+                data: {
+                    labels: years2,
+                    datasets: [{
+                        label: 'Proposals scoring ≥ 80% (%)',
+                        data: scoreOver80Data,
+                        borderColor: 'rgb(147, 51, 234)',
+                        backgroundColor: 'rgba(147, 51, 234, 0.1)',
+                        borderWidth: 3,
+                        pointBackgroundColor: 'rgb(126, 34, 206)',
+                        pointRadius: 5,
+                        fill: true,
+                        tension: 0.3,
+                        spanGaps: false
+                    }]
+                },
+                options: {
+                    ...commonOptions,
+                    scales: {
+                        y: {
+                            beginAtZero: false,
+                            suggestedMin: 40,
+                            suggestedMax: 100,
+                            title: { 
+                                display: true, 
+                                text: 'Number of Proposals' 
+                            }
+                        }
+                    }
+                }
+            });
         }
+        
+        
         
         // Initialize charts once everything is ready
         initCharts();

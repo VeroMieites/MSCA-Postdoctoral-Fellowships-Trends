@@ -1,7 +1,7 @@
 
 # Marie Skłodowska-Curie Actions (MSCA) Fellowship Trends (2014–2026)
 
-**Interactive Report:** [https://<your-username>.github.io/<your-repo-name>/](https://<your-username>.github.io/<your-repo-name>/)
+**Interactive Report:** https://veromieites.github.io/MSCA-Postdoctoral-Fellowships-Trends/
 
 An interactive report visualizing historical trends in budget allocations, application volumes, funded proposals, and success rates for Marie Curie Fellowships (MSCA-IF and MSCA-PF/EF) from 2014 to 2026.
 An interactive report visualizing historical trends in budget allocations, application volumes, funded proposals, and success rates for Marie Curie Fellowships (MSCA-IF and MSCA-PF/EF) from 2014 to 2026.

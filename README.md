@@ -23,7 +23,9 @@ This project analyzes the evolving competitiveness of the Marie Skłodowska-Curi
 - **Regulation (EU) 2021/695:** European Parliament and Council framework establishing Horizon Europe and setting multi-annual budget envelopes. [https://eur-lex.europa.eu/eli/reg/2021/695/oj/eng]
 
 
-Shield: [![CC BY 4.0][cc-by-shield]][cc-by]
+Verónica Mieites Alonso, 2026
+
+[![CC BY 4.0][cc-by-shield]][cc-by]
 
 This work is licensed under a
 [Creative Commons Attribution 4.0 International License][cc-by].
